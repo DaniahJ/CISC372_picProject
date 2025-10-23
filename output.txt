@@ -1,0 +1,15 @@
+Script started on Thu 23 Oct 2025 06:35:36 PM EDT
+]0;dtaveaj@login00.darwin:~/CISC372_picProject[?1034h[dtaveaj@login00.darwin CISC372_picProject]$ export OMP_NUM_THREADS=4
+]0;dtaveaj@login00.darwin:~/CISC372_picProject[dtaveaj@login00.darwin CISC372_picProject]$ ./image_pthreads pic1.jpg edge
+Loaded image: 4032x3024 with 3 channels
+Applying edge filter using pthreads with 4 threads...
+
+Output saved to output.png
+]0;dtaveaj@login00.darwin:~/CISC372_picProject[dtaveaj@login00.darwin CISC372_picProject]$ ./image_openmp pic1.jpg edge
+Loaded image: 4032x3024 with 3 channels
+Applying edge filter using OpenMP with 4 threads...
+Output saved to output.png
+]0;dtaveaj@login00.darwin:~/CISC372_picProject[dtaveaj@login00.darwin CISC372_picProject]$ exit
+exit
+
+Script done on Thu 23 Oct 2025 06:36:17 PM EDT
